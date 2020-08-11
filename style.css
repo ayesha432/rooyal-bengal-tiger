@@ -1,0 +1,58 @@
+#plp{
+	background:  rgb(255, 127, 8);
+	border: 8px aqua solid ;
+	padding :32px;
+	margin: 1px;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+#plp:hover{
+	background: rgb(227, 57, 113);
+}
+img{
+	width: 60%;
+	height: 700px;
+
+}
+#jij{
+	background: rgb(93, 171, 26);
+	border: 8px teal solid;
+	padding: 30px;
+	margin: 1px;
+	font-size: 27px;
+	height: 75px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+}
+#jij:hover{
+	background: rgb(25, 189, 167);
+}
+
+
+#kik{
+	width: 50% 
+}
+
+#opo{
+	height: 180px;
+	width: 400px;
+	font-size: 11px;
+	background: rgb(196, 174, 49);
+	position: relative;
+    animation: tiger 6s infinite;
+}
+@keyframes tiger{
+
+	from{
+		left: 0px;
+	}
+	to{
+		left:900px; 
+	}
+
+}
+
+body{
+	background: gray;
+}
